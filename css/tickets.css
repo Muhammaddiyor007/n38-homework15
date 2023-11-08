@@ -566,3 +566,15 @@ td {
     background-image: url(../images/w\ 7.png);
     margin-left: 30px;
 }
+
+@media screen and (max-width:550px) {
+    .bale-btn {
+        width: 56px;
+        height: 24px;
+        flex-shrink: 0;
+        border-radius: 100px;
+        background: var(--green-default, #29CC97);
+        color: var(--switch-bg-color);
+        border: none;
+    }
+}
